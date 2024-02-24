@@ -47,4 +47,12 @@ void sift_down(int *array, size_t start, size_t end, size_t size);
 
 void heap_sort(int *array, size_t size);
 
+void counting_sort(int *array, size_t size);
+
+int _maximum(int *array, int size);
+
+void radix_sort(int *array, size_t size);
+
+void count_sort(int arr[], int n, int exp);
+
 #endif /* SORT_H */
